@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-shadow:
+        -1px -1px 10px #D52E87,  
+        1px -1px 10px #D52E87,
+        -1px 1px 10px #D52E87,
+        1px 1px 10px #D52E87;
+}
+
+h2, h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #785594;
+}
