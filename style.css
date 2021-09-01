@@ -1,17 +1,94 @@
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 h1 {
     font-family: 'Lobster';
+    font-size: 30px;
+    font-style: italic;
     font-weight: bold;
-    font-size: 50px;
     color: white;
     text-shadow:
         -1px -1px 10px #D52E87,  
         1px -1px 10px #D52E87,
         -1px 1px 10px #D52E87,
         1px 1px 10px #D52E87;
+
+    padding: 25px;
 }
 
-h2, h3 {
+h2 {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 16px;
+    padding: 1.5em;
+
+    border-left: 2px solid #785594;
+    border-right: 2px solid #785594;
+}
+
+header[role=banner] {
+    background-color: #E567AE;
+
+}
+
+h3 {
     font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
     font-weight: bold;
     color: #785594;
+
+    border-bottom: 2px solid #F6C5E0;
+}
+
+p {
+    color: #6a6a6a;
+    line-height: 1.25em;
+}
+
+#design-selection {
+    background-color: #E567AE;
+    color: white;
+}
+
+#design-selection a {
+    color: #7D5595;
+    text-decoration: none;
+}
+
+#design-selection > a:hover {
+    text-decoration: underline;
+}
+
+#design-archives {
+    background-color: #DB499B;
+    color: white;
+}
+
+#design-archives a {
+    color: white;
+    text-decoration: none;
+}
+
+#design-archives > a:hover {
+    color: #7D5595;
+    text-decoration: underline;
+}
+
+#zen-resources {
+    background-color: #CB3B8A;
+    color: white;
+}
+
+#zen-resources a {
+    color: white;
+    text-decoration: none;
+}
+
+#zen-resources > a:hover {
+    color: #7D5595;
+    text-decoration: underline;
 }
