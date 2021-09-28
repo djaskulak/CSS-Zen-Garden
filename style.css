@@ -113,6 +113,11 @@ footer {
 	justify-content: space-around;
 }
 
+.design-selection > ul {
+    display: flex;
+    flex-direction: row;
+}
+
 .design-selection ul > li {
 	display: block;
 	border: 1px solid;
